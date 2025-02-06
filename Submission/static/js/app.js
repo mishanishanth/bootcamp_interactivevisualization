@@ -20,7 +20,7 @@ function buildMetadata(sample) {
     let metadata_keys = Object.keys(sample_metadata);
     for (let i = 0; i < metadata_keys.length; i++) {
       // get key/value pair
-      let key = metadata_keys[i].toUpperCase(); 
+      let key = metadata_keys[i]; 
       let value = sample_metadata[key];
 
       // add to html
